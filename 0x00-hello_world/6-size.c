@@ -14,15 +14,15 @@ int main(void)
 	long long int d;
 	float f;
 
-printf("size of a char: %lu byte(s)\n", (unsigned long)s
-izeof(a));
-printf("size of an int: %lu byte(s)\n", (unsigned long)s
-izeof(b));
-printf("size of a long int: %lu bytes(s)\n", (unsigned 
-long)sizeof(c));
-printf("size of a long long int: %lu bytes(s)\n", (unsig
-ned long)sizeof(d));
-printf(size of a float: %lu bytes(s)\n", (unsigned long
-)sizeof(f));
+printf("size of a char: %lu byte(s)\n", (unsigned long)siz
+eof(a));
+printf("size of an int: %lu byte(s)\n", (unsigned long)siz
+eof(b));
+printf("size of a long int: %lu bytes(s)\n", (unsigned lon
+g)sizeof(c));
+printf("size of a long long int: %lu bytes(s)\n", (unsigne
+d long)sizeof(d));
+printf(size of a float: %lu bytes(s)\n", (unsigned long)s
+izeof(f));
 return (0);
 }
