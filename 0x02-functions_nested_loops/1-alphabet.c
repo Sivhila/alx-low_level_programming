@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet - Make the alphabet
- * Return: void
+ * print_alphabet - this is the _putchar function
+ * Return: this will return 0 after a newline
  */
 
 void print_alphabet(void)
