@@ -1,5 +1,9 @@
 #include "main.h"
 
+#include "main.h"
+
+#include "main.h"
+
 /**
  * puts_half - Prints half of a string
  * @str: The string to print
@@ -30,4 +34,5 @@ void puts_half(char *str)
 	{
 	_putchar(str[k]);
 	}
+	_putchar('\n');
 }
