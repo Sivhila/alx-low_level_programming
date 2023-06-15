@@ -7,7 +7,7 @@
  * _puts_recursion - a function that recursively prints out a string.
  */
 
-void _puts_recursion(char *s)
+void _puts_recursion(char *s);
 {
 
 	if (*s <= '\0')
