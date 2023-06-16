@@ -2,12 +2,14 @@
 
 /*
  * The main function call starts from int main.
- * *s - represents a pointer to a character.
- * str - is n array of characters.
- * _puts_recursion - a function that recursively prints out a string.
+ * *s: represents a pointer to a character.
+ * @str: is n array of characters.
+ * @_puts_recursion: a function that recursively prints out a string
+ * of character
+ * 
  */
 
-void _puts_recursion(char *s);
+void _puts_recursion(char *s)
 {
 
 	if (*s <= '\0')
