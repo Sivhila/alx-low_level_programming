@@ -1,12 +1,10 @@
 #include "main.h"
 
 /*
- * The main function call starts from int main.
- * *s: represents a pointer to a character.
- * @str: is n array of characters.
- * @_puts_recursion: a function that recursively prints out a string
- * of character
- * 
+ * _puts_recursion - a function that recursively prints out a string.
+ * @char: takes character agruments.
+ * @*s: is a pointer to a character.
+ * @-putchar: prints the character.
  */
 
 void _puts_recursion(char *s)
